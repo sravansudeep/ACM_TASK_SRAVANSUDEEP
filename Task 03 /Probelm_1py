@@ -1,0 +1,6 @@
+lst1=eval(input("Enter the list"))
+s=0
+for i in lst1:
+    if i%2 != 0:
+        s+=i
+print(s)
