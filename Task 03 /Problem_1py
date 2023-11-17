@@ -1,6 +1,7 @@
-lst1=eval(input("Enter the list"))
-s=0
-for i in lst1:
-    if i%2 != 0:
-        s+=i
-print(s)
+fh=open("Retrieve.txt","r")
+fh1=open("Outputfile.txt","w+")
+fh.seek(0)
+c=fh.read()
+fh1.write(c)
+fh.close()
+fh1.close()
