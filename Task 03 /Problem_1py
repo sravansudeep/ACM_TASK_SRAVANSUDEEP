@@ -1,7 +1,0 @@
-fh=open("Retrieve.txt","r")
-fh1=open("Outputfile.txt","w+")
-fh.seek(0)
-c=fh.read()
-fh1.write(c)
-fh.close()
-fh1.close()
